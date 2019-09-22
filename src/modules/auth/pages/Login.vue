@@ -23,7 +23,7 @@
             >
           </div>
 
-          <button class="btn btn-primary w-100k">
+          <button class="btn btn-primary w-100">
             Entrar
           </button>
         </div>

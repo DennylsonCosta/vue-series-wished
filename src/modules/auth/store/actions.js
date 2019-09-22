@@ -10,7 +10,7 @@ export const ActionDoLogin = ({ dispatch }, payload) => {
 }
 
 export const ActionCheckToken = ({ dispatch, state }) => {
-  if (state.tpken) {
+  if (state.token) {
     return Promise.resolve(state.token)
   }
   const token = storage.getLocalToken()
