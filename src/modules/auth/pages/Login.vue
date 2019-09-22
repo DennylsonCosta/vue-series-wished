@@ -51,6 +51,7 @@ export default {
 
         this.$router.push({ name: 'home' })
       } catch (err) {
+        console.error(err)
         console.error(err.data ? err.data.message : 'Não foi possivel fazer o login')
       }
     }
